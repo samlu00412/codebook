@@ -19,4 +19,9 @@ union and find
 minimum spanning tree
 8-queen
 multimap/multiset
-LCA/LCS
+LCA
+LCS
+kruskal
+floyd warshall
+prim's algorithm
+01 knapback
