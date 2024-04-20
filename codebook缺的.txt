@@ -1,0 +1,22 @@
+To-do codebook content
+
+dijkstra
+bignum-mod
+half enumeration
+binary search
+matrix speedexpo
+linked list
+sliding window(two pointer)
+greedy
+sweepline
+priority queue
+deque
+divide and conquer
+dynamic programming(1D0D,1D1D,2D0D,2D1D, etc.)
+DAG
+topology sort
+union and find
+minimum spanning tree
+8-queen
+multimap/multiset
+LCA/LCS
