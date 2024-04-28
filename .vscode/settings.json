@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "rope": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "map": "cpp"
     }
 }

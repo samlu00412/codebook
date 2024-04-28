@@ -6,16 +6,15 @@ binary search
 matrix speedexpo
 linked list
 sweepline
-priority queue
 divide and conquer
 dynamic programming(1D0D,1D1D,2D0D,2D1D, etc.)
 DAG
 topology sort
-union and find
+disjoint set
 minimum spanning tree
 8-queen
 LCA
-LCS
+LIS
 kruskal
 floyd warshall
 prim's algorithm
