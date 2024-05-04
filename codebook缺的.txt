@@ -1,6 +1,5 @@
 To-do codebook content
 
-dijkstra
 half enumeration
 binary search
 matrix speedexpo
