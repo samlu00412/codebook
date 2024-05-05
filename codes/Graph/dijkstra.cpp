@@ -1,10 +1,8 @@
 #include<bits/stdc++.h>
-
 #define good ios_base::sync_with_stdio(0);cin.tie(0)
 #define N 10002
 #define oo 1000000001//1e9+1
 typedef long long LL;
-
 using namespace std;
 
 vector<pair<LL,LL>> adjacent[N];//out neighbor,weight of edge
@@ -12,7 +10,6 @@ LL dis[N],parent[N];
 bool visit[N] = {false};
 
 int main(){
-    good;
     LL i,n,m;
     cin >> n >> m;
     for(i = 0; i < m; i++){
