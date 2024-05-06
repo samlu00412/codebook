@@ -5,8 +5,5 @@ linked list
 sweepline
 divide and conquer
 dynamic programming(1D0D,1D1D,2D0D,2D1D, etc.)
-minimum spanning tree
 LCA
-kruskal
 floyd warshall
-prim's algorithm
