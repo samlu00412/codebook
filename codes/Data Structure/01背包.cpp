@@ -1,4 +1,4 @@
-LL dp[101][100001] = {0};//�ei�Ӫ��~�Ҵ�X���qj���̤j����
+LL dp[101][100001] = {0};//前i個物品所湊出重量j的最大價值
 int main(){
     good;
     LL j,i,n,w,svalue = 0,sweight = 0;

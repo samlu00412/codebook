@@ -22,7 +22,7 @@ int main(){
     LL source = 0;
     memset(dis,oo,sizeof(dis));
     memset(parent,-1,sizeof(parent));
-    priority_queue<pair<LL,LL>> PQ;//-dis[],vertex¡A§Ş¥©©ÊÅı³Ì¤p­Èpop
+    priority_queue<pair<LL,LL>> PQ;//-dis[],vertexï¼ŒæŠ€å·§æ€§è®“æœ€å°å€¼pop
     PQ.push({dis[source] = 0,source});
     //dijkstra
     while (!PQ.empty()){

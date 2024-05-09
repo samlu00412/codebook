@@ -1,4 +1,4 @@
-int dp[1002][1002],i,j; //text1 «ei­Ó & text2 «ej­Ó
+int dp[1002][1002],i,j; //text1 å‰iå€‹ & text2 å‰jå€‹
     for(i = 0; i < 1002; i++)
         dp[i][0] = 0,dp[0][i] = 0;
     for(i = 1; i <= text1.size(); i++){ //1 base <=

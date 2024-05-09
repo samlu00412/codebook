@@ -3,7 +3,7 @@ int main(){
     //freopen("file name", "r", stdin); //input redirection
     LL n,i,length = 0,num;
     cin >> n;
-    LL last[RSIZE];//ªø«×¬°itªº³Ì¤p¥i¯àµ²§À
+    LL last[RSIZE];//é•·åº¦ç‚ºitçš„æœ€å°å¯èƒ½çµå°¾
     for(i = 0; i < n; i++){
         cin >> num;
         LL it = lower_bound(last,last+length,num)-last;

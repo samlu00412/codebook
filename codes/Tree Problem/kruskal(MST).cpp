@@ -12,17 +12,17 @@ struct EDGE{
 vector<EDGE> adjacent;//out neighbor, weight
 LL fa[RSIZE];
 
-bool cmp(EDGE &a,EDGE &b){
+bool cmp(EDGE &a,EDGE &b){//sort by weight
     return a.w < b.w;
 }
-LL sfind(LL now){//find root
+LL sfind(LL now){//find root,root's father=set size
     if(fa[now] < 0)
         return now;
     return fa[now] = sfind(fa[now]);
 }
-bool merge(LL u,LL v){
+bool merge(LL u,LL v){//find two root, comparing size(by root's father)
     LL set1 = sfind(u),set2 = sfind(v);
-    if(set1 == set2) return false;
+    if(set1 == set2) return false;//same root-> no need to merge
     if(fa[set1] < fa[set2]){ //set1 is larger
         fa[set1] += fa[set2];
         fa[set2] = set1;
@@ -48,7 +48,7 @@ int main(){
     sort(adjacent.begin(),adjacent.end(),cmp);//sort by weight
     LL cost = 0,now_edge = 0;
     for(EDGE e : adjacent){
-        if(merge(e.u,e.v)){
+        if(merge(e.u,e.v)){//connect edge
             cost += e.w;
             now_edge++;
         }
