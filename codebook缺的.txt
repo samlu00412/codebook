@@ -1,7 +1,5 @@
 To-do codebook content
 
-linked list
-sweepline
 dynamic programming(1D0D,1D1D,2D0D,2D1D, etc.)
 LCA
 floyd warshall

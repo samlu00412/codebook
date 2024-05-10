@@ -1,5 +1,5 @@
 //原字串: asdsasdsa 
-//先把字串變成這樣: @#a#s#d#s#a#s#d#s#a#
+//要先把字串變成這樣: @#a#s#d#s#a#s#d#s#a#
 void manacher(char *s,int len,int *z){
 	int l=0,r=0;
 	for(int i=1;i<len;++i){
