@@ -1,4 +1,4 @@
 To-do codebook content
 
-dynamic programming(1D0D,1D1D,2D0D,2D1D, etc.)
+dynamic programming(1D1D,2D0D,2D1D, etc.)
 floyd warshall
