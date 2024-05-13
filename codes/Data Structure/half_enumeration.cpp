@@ -28,7 +28,6 @@ LL exp_modp(LL x,LL y,LL p){
 }
 int main(){
     good;
-    //freopen("file name", "r", stdin); input redirection
     LL i,n,p;
     LL a[30],b[30];
     cin >> n >> p;

@@ -1,6 +1,5 @@
 int main(){
     good;
-    //freopen("file name", "r", stdin); //input redirection
     LL n,i,length = 0,num;
     cin >> n;
     LL last[RSIZE];//長度為it的最小可能結尾

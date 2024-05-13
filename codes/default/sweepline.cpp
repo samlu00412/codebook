@@ -1,8 +1,6 @@
 #include<bits/stdc++.h>
-
 #define good ios_base::sync_with_stdio(0);cin.tie(0)
 typedef long long LL;
-
 using namespace std;
 
 struct Seg{
@@ -12,10 +10,8 @@ bool cmp(Seg &a,Seg &b){
     return a.left < b.left;
 }
 
-
 int main(){
     good;
-    //freopen("P_2_1_5.in", "r", stdin);//input redirection
     LL n;
     cin >> n;
     Seg line[n];

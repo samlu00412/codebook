@@ -27,7 +27,6 @@ void removable(LL index){
 
 int main(){
     good;
-    //freopen("P_2_1_5.in", "r", stdin);//input redirection
     LL bound,n,total = 0,high = 0;
     cin >> n >> bound;
     for(LL i = 1; i <= n; i++)
