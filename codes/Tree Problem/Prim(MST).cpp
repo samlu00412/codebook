@@ -11,7 +11,6 @@ bool visit[RSIZE] = {false};
 
 int main(){
     good;
-    //freopen("file name", "r", stdin); //input redirection
     LL i,n,m;
     cin >> n >> m;
     for(i = 0; i < m; i++){

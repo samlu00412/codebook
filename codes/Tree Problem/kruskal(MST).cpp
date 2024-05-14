@@ -36,7 +36,6 @@ bool merge(LL u,LL v){//find two root, comparing size(by root's father)
 
 int main(){
     good;
-    //freopen("file name", "r", stdin); //input redirection
     LL i,n,m;
     cin >> n >> m;
     for(i = 0; i < m; i++){

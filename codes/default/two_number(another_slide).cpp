@@ -8,7 +8,6 @@ using namespace std;
 
 int main(){
     good;
-    //freopen("P_2_1_5.in", "r", stdin);//input redirection
     LL i,j,m,n,k,ans = 0;
     LL A[SIZE],B[SIZE];
     cin >> m >> n >> k;

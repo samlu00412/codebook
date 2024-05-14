@@ -10,7 +10,7 @@ int main(){
     LL n,m,a,b,w,start,fin,cnt = 0;
     cin >> n >> m;
     cin >> start >> fin;
-    vector<pair<LL,LL>> adj[n];// n-> out neighbor for first,weight for second
+    vector<pair<LL,LL>> adj[n];//out neighbor, weight
     LL indeg[n] = {0};
     LL shortest[n],longest[n];//dis. from start to i
     for(LL i = 0; i < m; i++){

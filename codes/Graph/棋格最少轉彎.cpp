@@ -7,7 +7,6 @@ using namespace std;
 
 int main(){
     good;
-    //freopen("P_2_1_5.in", "r", stdin);//input redirection
     LL i,j,m,n;
     LL dx[4] = {-1,0,1,0},dy[4] = {0,1,0,-1};
     cin >> m >> n;
